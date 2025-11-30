@@ -6,7 +6,7 @@ const Parent = () => {
 
   return (
     <div>
-      <div>Parent Component</div>
+      <div><h1>Parent Component</h1></div>
 
       {isLoggedIn && <div>You are logged in!</div>}
 
