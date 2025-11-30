@@ -8,7 +8,7 @@ const Parent = () => {
     <div>
       <div><h1>Parent Component</h1></div>
 
-      {isLoggedIn && <div>You are logged in!</div>}
+      {isLoggedIn && <p>You are logged in!</p>}
 
       {/* Passing state and setter to child */}
       <Child isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
